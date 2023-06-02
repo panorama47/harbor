@@ -79,13 +79,13 @@ BUILD_PG96=true
 REGISTRYSERVER=
 REGISTRYPROJECTNAME=goharbor
 DEVFLAG=true
-NOTARYFLAG=false
-TRIVYFLAG=false
+NOTARYFLAG=true
+TRIVYFLAG=true
 HTTPPROXY=
 BUILDBIN=false
 NPM_REGISTRY=https://registry.npmjs.org
 # enable/disable chart repo supporting
-CHARTFLAG=false
+CHARTFLAG=true
 BUILDTARGET=build
 GEN_TLS=
 
